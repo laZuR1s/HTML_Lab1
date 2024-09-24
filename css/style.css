@@ -1,48 +1,56 @@
-body{
- /*background: #888888;*/
+body {
+  /*background: #888888;*/
   margin: 15mm;
 }
 
-h1{
+h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 20pt;
   text-align: center;
 }
-#epigraph{
+
+h2 {
+  font-weight: normal;
+}
+
+.epigraph {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
   font-size: 16pt;
   text-align: end;
+
 }
-.task1{
+
+.task1 {
   font-family: "Times New Roman", Times, serif;
 }
 
-#header1{
+.header1 {
   font-size: 14pt;
   font-style: italic;
   text-decoration: underline;
   margin-bottom: 0;
 }
 
-.paragraph1
-{
+.paragraph1 {
   font-size: 12pt;
   text-indent: 10mm;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.answer1{
+.answer1 {
   font-size: 10pt;
   text-indent: -10mm;
   margin-left: 15mm;
 }
 
-.task2{
+.task2 {
   font-family: "Courier New", Courier, monospace;
 }
 
-#header2{
+.header2 {
   font-size: 14pt;
   font-style: italic;
   text-decoration: underline;
@@ -50,15 +58,14 @@ h1{
 
 }
 
-.paragraph2
-{
+.paragraph2 {
   font-size: 9pt;
   line-height: 2;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.answer2{
+.answer2 {
 
   font-size: 9pt;
   word-spacing: 0.2mm;
@@ -68,12 +75,12 @@ h1{
 }
 
 .task3 {
-font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif;
   margin-left: 20mm;
   margin-right: 40mm;
 }
 
-#header3{
+.header3 {
   font-size: 13pt;
   font-style: italic;
   text-decoration: underline;
@@ -84,38 +91,38 @@ font-family: "Times New Roman", Times, serif;
 
 }
 
-.paragraph3
-{
+.paragraph3 {
   text-align: justify;
   font-size: 12pt;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.answer3{
-font-size: 8pt ;
+.answer3 {
+  font-size: 8pt;
 }
 
 .task4 {
   font-family: "times New Roman", Times, serif;
 }
 
-#header4{
+.header4 {
   font-size: 17pt;
   text-decoration: underline;
   font-style: italic;
   text-align: end;
   margin-bottom: 0;
 }
-.paragraph4
-{
+
+.paragraph4 {
   text-align: end;
   font-size: 10pt;
   font-style: italic;
   margin-top: 0;
   margin-left: 19mm;
 }
-.answer4{
+
+.answer4 {
   font-size: 10pt;
   text-align: end;
   font-weight: bold;
